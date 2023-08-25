@@ -6,7 +6,7 @@ import MeetupDetail from '@/components/meetups/MeetupDetail';
 
 function MeetupDetails(props) {
 	return (
-		<Fragment>
+		<Fragment> 
 			<Head>
 				<title>{props.meetupData.title}</title>
 				<meta name="description" content={props.meetupData.description} />
